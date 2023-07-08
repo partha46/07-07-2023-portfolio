@@ -28,22 +28,16 @@ nav {
   padding: 15px 35px;
 }
 .section-title {
-  color: var(--dark-01, #181818);
+  color: #181818;
   text-align: center;
-  font-family: Open Sans;
   font-size: 35px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .section-description {
   color: #757575;
   text-align: center;
 
   font-size: 18px;
-
-  font-weight: 400;
-  line-height: 30px;
 }
 
 nav > ul {
@@ -94,11 +88,37 @@ nav a {
   margin-bottom: 20px;
 }
 /* mani section styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about section styles */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
-  margin: 130px 230px 230px;
+  margin: 130px 0;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 5px;
+}
+
+.info-description {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #181818;
+  margin: 2px;
+}
+#what-i-do-description {
+  padding: 30px 110px;
 }
